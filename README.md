@@ -3,7 +3,7 @@ this is the first docker container I've ever made
 
 Currently this is setup for 4.3.18 Nadekobot
 
-Build succeeding for 4.3.18 of Nadekobot
+[![Docker Image CI](https://github.com/disbedan015/NadekoBotv4-Docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/disbedan015/NadekoBotv4-Docker/actions/workflows/docker-image.yml)
 
 https://hub.docker.com/repository/docker/disbedan015/nadekobotv4/general
 
