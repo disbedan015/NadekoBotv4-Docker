@@ -1,1 +1,1 @@
-bash /home/nobody/nadekobot/NadekoBot
+bash /nadekobot/NadekoBot
