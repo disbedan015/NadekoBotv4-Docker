@@ -1,1 +1,1 @@
-/usr/bin/dotnet NadekoBot.dll
+redis-server --daemonize yes && cd /nadeko/ &&/usr/bin/dotnet /nadeko/NadekoBot.dll

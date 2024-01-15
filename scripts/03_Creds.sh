@@ -22,7 +22,7 @@ patreon:
 botListToken: $DISCORDBOTLIST
 cleverbotApiKey: $CLEVERBOTAPI
 gpt3ApiKey: $GPT3KEY
-botCache: Redis
+botCache: $CACHE
 redisOptions: localhost:6379,syncTimeout=30000,responseTimeout=30000,allowAdmin=true,password=
 db:
   type: sqlite
@@ -39,4 +39,4 @@ twitchClientSecret: $TWITCHSECRET
 restartCommand:
   cmd: 
   args: 
-" >> /creds.yml
+" >> /nadeko/creds.yml
