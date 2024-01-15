@@ -1,1 +1,1 @@
-wget https://gitlab.com/api/v4/projects/9321079/packages/generic/NadekoBot-build/4.3.18/4.3.18-linux-x64-build.tar && tar xf 4.3.18-linux-x64-build.tar && mv nadekobot-linux-x64 nadekobot && rm 4.3.18-linux-x64-build.tar && chmod +x nadekobot/NadekoBot && touch /nadekobot/creds.yml
+wget https://gitlab.com/api/v4/projects/9321079/packages/generic/NadekoBot-build/4.3.18/4.3.18-linux-x64-build.tar && tar xf 4.3.18-linux-x64-build.tar && mv -v nadekobot-linux-x64/* / && rm 4.3.18-linux-x64-build.tar && rm -rf nadekobot-linux-x64/ && chmod +x NadekoBot && touch creds.yml
