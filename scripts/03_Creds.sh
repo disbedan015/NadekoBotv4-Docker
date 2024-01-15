@@ -1,3 +1,4 @@
+rm /nadeko/creds.yml
 echo "version: 7
 token: $DISCORDTOKEN
 ownerIds:
@@ -26,7 +27,7 @@ botCache: $CACHE
 redisOptions: $REDISOPT
 db:
   type: sqlite
-  connectionString: Data Source=data/NadekoBot.db
+  connectionString: Data Source=/db/NadekoBot.db
 coordinatorUrl: $SHARDCORDURL
 rapidApiKey: $RAPIDAPIKEY
 locationIqApiKey: $LOCATIONIQKEY
