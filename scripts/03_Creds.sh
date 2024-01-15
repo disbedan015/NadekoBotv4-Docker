@@ -3,7 +3,7 @@ token: $DISCORDTOKEN
 ownerIds:
   - $OWNERID
 usePrivilegedIntents: true
-totalShards: 1
+totalShards: $SHARDS
 googleApiKey: $GOOGLEAPI
 google:
   searchId: 
@@ -23,11 +23,11 @@ botListToken: $DISCORDBOTLIST
 cleverbotApiKey: $CLEVERBOTAPI
 gpt3ApiKey: $GPT3KEY
 botCache: $CACHE
-redisOptions: localhost:6379,syncTimeout=30000,responseTimeout=30000,allowAdmin=true,password=
+redisOptions: $REDISOPT
 db:
-  type: sqlite
-  connectionString: Data Source=data/NadekoBot.db
-coordinatorUrl: http://localhost:3442
+  type: $DBTYPE
+  connectionString: $DBCONNECTION
+coordinatorUrl: $SHARDCORDURL
 rapidApiKey: $RAPIDAPIKEY
 locationIqApiKey: $LOCATIONIQKEY
 timezoneDbApiKey: $TIMEZONEKEY
