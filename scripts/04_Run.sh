@@ -1,0 +1,1 @@
+bash /home/nobody/nadekobot/NadekoBot

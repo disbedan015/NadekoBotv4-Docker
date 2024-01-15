@@ -1,0 +1,1 @@
+chmod +x /opt/scripts/01_Prereq.sh && bash /opt/scripts/01_Prereq.sh && chmod +x /opt/scripts/02_App.sh && bash /opt/scripts/02_App.sh && chmod +x /opt/scripts/03_Creds.sh && bash /opt/scripts/03_Creds.sh && chmod +x /opt/scripts/04_Run.sh && bash /opt/scripts/04_Run.sh
