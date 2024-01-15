@@ -1,1 +1,1 @@
-/usr/bin/dotnet nadekobot/NadekoBot.dll
+/usr/bin/dotnet NadekoBot.dll
