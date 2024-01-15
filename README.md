@@ -8,7 +8,7 @@ presently failing to deploy resolving the errors one at a time
 
 Build and deployment instructions
 
-gh repo clone disbedan015/NadekoBot-Docker ~/NadekobotDocker \r
-cd ~/NadekobotDocker \r
-sudo docker build -t nadekov4 . \r
-sudo docker run --name nadekobotv4 -e DISCORDTOKEN=$discordbottoken -e OWNERID=$discordownerid nadekov4 \r
+git pull https://github.com/disbedan015/NadekoBot-Docker ~/NadekobotDocker<br>
+cd ~/NadekobotDocker<br>
+sudo docker build -t nadekov4 .<br>
+sudo docker run --name nadekobotv4 -e DISCORDTOKEN=$discordbottoken -e OWNERID=$discordownerid nadekov4
