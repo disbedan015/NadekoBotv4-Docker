@@ -5,6 +5,7 @@ Currently this is setup for 4.3.18 Nadekobot
 
 Build succeeding for 4.3.18 of Nadekobot
 
+https://hub.docker.com/repository/docker/disbedan015/nadekobotv4/general
 
 Build and deployment instructions
 
