@@ -3,7 +3,7 @@ this is the first docker container I've ever made
 
 Currently this is setup for 4.3.18 Nadekobot
 
-presently failing to deploy resolving the errors one at a time
+Build succeeding for 4.3.18 of Nadekobot
 
 
 Build and deployment instructions
