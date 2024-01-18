@@ -1,4 +1,3 @@
-rm /nadeko/creds.yml
 echo "version: 7
 token: $DISCORDTOKEN
 ownerIds:
@@ -40,4 +39,4 @@ twitchClientSecret: $TWITCHSECRET
 restartCommand:
   cmd: 
   args: 
-" >> /nadeko/creds.yml
+" > /nadeko/creds.yml
