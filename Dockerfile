@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM python:3.13.0a2-alpine3.19
 
 #NadekoBotV4
 COPY scripts/ /opt/scripts/
