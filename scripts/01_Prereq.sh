@@ -1,1 +1,1 @@
-apt update && apt install curl -y &&  apt install apt-transport-https yt-dlp dotnet-sdk-6.0 -y libopus0 opus-tools libopus-dev libsodium-dev wget redis-server python3-all python-is-python3 libpython3.10 ffmpeg -y # && curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp && chmod a+rx /usr/local/bin/yt-dlp
+$LOCALREDIS && apt install redis-server -y && redis-server --daemonize yes || echo "no redis"

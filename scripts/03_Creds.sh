@@ -27,7 +27,7 @@ botCache: $CACHE
 redisOptions: $REDISOPT
 db:
   type: sqlite
-  connectionString: Data Source=/db/NadekoBot.db
+  connectionString: Data Source=/nadeko/NadekoBot.db
 coordinatorUrl: $SHARDCORDURL
 rapidApiKey: $RAPIDAPIKEY
 locationIqApiKey: $LOCATIONIQKEY
