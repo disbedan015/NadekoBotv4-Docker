@@ -26,8 +26,8 @@ gpt3ApiKey: $GPT3KEY
 botCache: $CACHE
 redisOptions: $REDISOPT
 db:
-  type: sqlite
-  connectionString: Data Source=/nadeko/NadekoBot.db
+  type: $DBTYPE
+  connectionString: $DBLOCATION
 coordinatorUrl: $SHARDCORDURL
 rapidApiKey: $RAPIDAPIKEY
 locationIqApiKey: $LOCATIONIQKEY
