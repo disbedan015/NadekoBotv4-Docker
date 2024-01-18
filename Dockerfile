@@ -6,5 +6,6 @@ RUN apt update && apt install curl apt-transport-https yt-dlp dotnet-sdk-6.0 -y 
 #NadekoBotV4
 COPY scripts/ /opt/scripts/
 CMD ["mkdir", "nadeko"]
+CMD ["rm", "/nadeko/creds.yml", "||", "true"]
 CMD ["chmod", "+x" "/opt/scripts/00_Installer.sh"]
 CMD ["bash", "/opt/scripts/00_Installer.sh"]
