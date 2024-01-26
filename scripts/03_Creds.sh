@@ -40,4 +40,4 @@ twitchClientSecret: $TWITCHSECRET
 restartCommand:
   cmd: 
   args: 
-" >> /nadeko/creds.yml
+" > /nadeko/output/creds.yml

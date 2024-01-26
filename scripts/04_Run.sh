@@ -1,2 +1,1 @@
-cd /nadeko/ && /usr/bin/dotnet /nadeko/NadekoBot.dll 
-#&& while true; do ||; done
+cd /nadeko/ && /usr/bin/dotnet /nadeko/output/NadekoBot.dll 
