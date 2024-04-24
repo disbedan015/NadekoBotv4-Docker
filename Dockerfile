@@ -6,6 +6,4 @@ RUN apt install curl apt-transport-https yt-dlp dotnet-sdk-6.0 -y libopus0 opus-
 
 #NadekoBotV4
 COPY scripts/ /opt/scripts/
-CMD ["mkdir", "nadeko"]
-CMD ["chmod", "+x" "/opt/scripts/00_Installer.sh"]
 CMD ["bash", "/opt/scripts/00_Installer.sh"]
