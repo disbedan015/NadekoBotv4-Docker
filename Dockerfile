@@ -1,7 +1,7 @@
 FROM alpine:edge
 
 #prereqs
-RUN apk add --no-cache dotnet8-sdk bash curl yt-dlp opus opus-tools opus-dev libsodium-dev wget python3 python3-dev ffmpeg
+RUN apk add --no-cache gcompat redis dotnet8-sdk bash curl yt-dlp opus opus-tools opus-dev libsodium-dev wget python3 python3-dev ffmpeg
 
 #NadekoBotV4
 COPY scripts/ /opt/scripts/
