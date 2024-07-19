@@ -1,10 +1,7 @@
-FROM ubuntu:noble
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 
 #prereqs
-RUN apt update
-RUN apt install software-properties-common -y
-RUN add-apt-repository ppa:dotnet/backports
-RUN apt install curl apt-transport-https yt-dlp dotnet-sdk-6.0 -y libopus0 opus-tools libopus-dev libsodium-dev wget python3-all python-is-python3 libpython3-dev ffmpeg -y
+RUN apk add --no-cache bash software software-properties-common curl apt-transport-https yt-dlp libopus0 opus-tools libopus-dev libsodium-dev wget python3-all python-is-python3 libpython3-dev ffmpeg
 
 #NadekoBotV4
 COPY scripts/ /opt/scripts/
