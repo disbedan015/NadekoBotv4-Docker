@@ -18,3 +18,4 @@ make
 
 cp src/redis-server /usr/local/bin/
 cp src/redis-cli /usr/local/bin/
+redis-server --daemonize yes
