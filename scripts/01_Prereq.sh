@@ -1,1 +1,1 @@
-$LOCALREDIS && apt install redis-server -y && redis-server --daemonize yes || echo "no redis"
+$LOCALREDIS && redis-server --daemonize yes || echo "no redis"
