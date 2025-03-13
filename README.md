@@ -3,7 +3,7 @@ No longer supported version 6 has it's own offical docker container.
 I couldn't find a NadekoBotv4 docker container so I made one
 this is the first docker container I've ever made
 
-Currently this is setup for 5.0.4 Nadekobot
+Currently this is setup for 5.3.9 Nadekobot
 
 https://hub.docker.com/repository/docker/disbedan015/nadekobotv4/general
 
