@@ -1,3 +1,5 @@
+No longer supported version 6 has it's own offical docker container.
+
 I couldn't find a NadekoBotv4 docker container so I made one
 this is the first docker container I've ever made
 
